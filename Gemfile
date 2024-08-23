@@ -68,3 +68,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "neighbor", "~> 0.4.0"
+gem "rest-client", "~> 2.1"

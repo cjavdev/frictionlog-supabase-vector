@@ -24,6 +24,7 @@ default: &default
 
 development:
   <<: *default
+  # database: faq_development
   url: <%= Rails.application.credentials.dig(:supabase, :connection_string) %>
 
   # The specified database role being used to connect to postgres.
